@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Goal Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 Smart Goal Tracker</h1>
+    <div class="goal-form">
+      <input type="text" id="goalInput" placeholder="Enter your goal..." />
+      <input type="time" id="timeInput" />
+      <select id="ampmSelect">
+        <option value="AM">AM</option>
+        <option value="PM">PM</option>
+      </select>
+      <button onclick="addGoal()">Add Goal</button>
+    </div>
+    <div id="goalList" class="goal-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
